@@ -1,0 +1,76 @@
+<!-- ECHO attivo. -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsive web meta tag-->
+    <meta name="description" content="Assistena Elettrodomestici Mille | Pronto riparazione tecnico in zon">
+    <meta name="keywords" content="Assistenza, riparazione, elettrodomestici, intervento, tecnico, domicilio, varese">
+    <meta name="author" content="Assistenza Elettrodomestici 1000 WMaster">
+    <title>Benvenuto in Assistenza Mille | Ripariamo Elettrodomestici</title>
+    <!-- connette al file style CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <style type="text/css">
+        header #brand {
+            float: left;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .container .bolde {
+            font-weight: bold;
+            color: #884dff;
+        }
+        #showcase h1 {
+            margin-top: 40px;
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="headline"><h3>INTERVENTO DEL TECNICO PRIORITARIO A DOMICILIO ENTRO 24H</h3></div>
+        <div class="container">
+            <!-- <img src="./img.logo.png" alt=""> -->
+            <div id="brand">
+                <h1 style="margin:0;">Assistenza Elettrodomestici <span class="bolde">1000</span> </h1>
+                <!-- style margin:0 elimina ogni margine e guadagna spazio nel container guarda float:left in style head-->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">I Nostri Marchi</a></li>
+                    <li><a href="about.html">La nostra storia</a></li>
+                    <li><a href="services.html">Preventivo online</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="showcase">
+        <!-- dove sta l'immagine di sfondo con la scritta -->
+        <div class="container">
+            <h1>Assistenza elettrodomestici a domicilio</h1>
+                <div class="line"><hr></div>
+            <h2>CHIAMA ORA L'ASSISTENZA MILLE</h2>
+            <!-- chiamata prioritaria -->
+            <button class="botton-1">CHIAMA ORA</button>
+        </div>
+    </section>
+    <section id="coupon">
+        <div class="container">
+            <h2>Ricevi subito un preventivo ed un buono sconto per l'uscita del tecnico</h2>
+            <form action="process.php" method="POST">
+                <label for="mail">Applica sconto per preventivo on-line</label>
+                <input type="email" id="mail" placeholder="inserisci mail & vai">
+                <!-- restyle buttons -->
+                <button class="button_2">Richiedi</button> 
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Assistenza Mille WebDesign piva 00000000</p>
+    </footer>
+</body>
+</html>
